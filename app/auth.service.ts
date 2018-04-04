@@ -6,6 +6,7 @@ import { fromPromise } from 'rxjs/observable/fromPromise';
 import { map, tap, catchError } from 'rxjs/operators';
 import { of } from 'rxjs/observable/of';
 
+// import * as Nodeify from 'nativescript-nodeify';
 require('nativescript-nodeify');
 import Amplify, { Auth } from 'aws-amplify';
 
